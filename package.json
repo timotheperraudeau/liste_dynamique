@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Liste à affichage dynamique",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:style.css",
+    "prefix": "postcss style.css --use autoprefixer -d ./prefixed"
+  },
+  "browserslist": "last 4 versions",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Timothé Perraudeau",
+  "license": "ISC"
+}
